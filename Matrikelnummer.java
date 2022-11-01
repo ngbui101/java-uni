@@ -1,6 +1,8 @@
 import javax.swing.JOptionPane;
+
 class Matrikelnummer{
 	public static void main(String args[]){
+		
 		int matrikelNr = Integer.parseInt(JOptionPane.showInputDialog("Geben Sie Ihre Martikel-Nr ein"));
 		int hilf = matrikelNr;
 		int querSum = 0;
