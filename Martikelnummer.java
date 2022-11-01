@@ -1,6 +1,7 @@
 import javax.swing.JOptionPane;
 class Martikelnummer{
 	public static void main(String args[]){
+		
 		int martikelNr = Integer.parseInt(JOptionPane.showInputDialog("Geben Sie Ihre Martikel-Nr ein"));
 		int hilf = martikelNr;
 		int querSum = 0;
